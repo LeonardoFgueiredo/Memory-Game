@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #282a36;
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+}
+p {
+  margin-bottom: 50px;
+  font-style: italic;
+  text-align: center;
+}
+
+.memory-game {
+  width: 640px;
+  height: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  /*Efeitos*/
+  perspective: 1000px;
+}
+
+.memory-card {
+  margin: 5px;
+  width: calc(25% - 10px);
+  height: calc(33.333% - 10px);
+  position: relative;
+  cursor: pointer;
+  /*Efeitos*/
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+/*Efeito de Clique*/
+.memory-card:active {
+  transform: scale(0.97);
+  transition: transform 0.2s;
+}
+
+.memory-card.flip {
+  transform: rotateY(180deg);
+}
+
+.front-face,
+.back-face{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 5px;
+  background-color: #44475a;
+  backface-visibility: hidden;
+}
+
+.front-face{
+  padding: 20px;
+}
+
+.back-face{
+  padding: 50px 20px 20px 20px ;
+}
+
+
+.front-face {
+  transform: rotateY(180deg);
+}
+
+.reca{
+  width: 60px;
+  background-color: #44475a;
+  border: none;
+  color: rgb(255, 179, 38);
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 30px;
+
+  margin-top: 5px;
+}
