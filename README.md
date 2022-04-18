@@ -2,7 +2,7 @@
   <h1>🕹 Memory Game with Javascript</h1>
   <p>● select elements in the DOM with querySelector</p>
   <p>● iterate through lists with forEach</p>
-  <p>●add/remove an element class</p>
+  <p>● add/remove an element class</p>
   <p>● add/remove event listeners</p>
   <p>● timeout</p>
   <p>● html5: data-attribute</p>
