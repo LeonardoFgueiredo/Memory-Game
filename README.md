@@ -7,5 +7,9 @@
   <p>● Timeout</p>
   <p>● Html5: data-attribute</p>
   <p>● Css3: positioning, flexbox, perspective, backface-visibility, transitions</p>
-  <img width="500px"  src="https://user-images.githubusercontent.com/59649767/163847482-c755e098-578e-494c-ae38-7791afb9b933.png">
+  
+  [Demo](https://leonardofgueiredo.github.io/Memory-Game/)
+  
+  <img width="30%"  src="https://user-images.githubusercontent.com/59649767/163847482-c755e098-578e-494c-ae38-7791afb9b933.png">  
+  
 </div>
